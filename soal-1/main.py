@@ -15,8 +15,6 @@ class CalculatorApp(QMainWindow):
         for i in range(1, 11):
             hasil = angka * i
             self.ui.listWidget.addItem(f"{i} x {angka} = {hasil}")
-            # item = (f'{angka} x {i} = {angka*i}')
-            # self.ui.listWidget.addItem(item) 
     
 
 if __name__ == '__main__':
